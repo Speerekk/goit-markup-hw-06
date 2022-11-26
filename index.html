@@ -451,16 +451,23 @@
                 class="modal-comment-text"
                 placeholder="Введіть текст"></textarea>
             </div>
-            <div>
+            <div class="modal-field">
                 <input 
                 type="checkbox" 
                 name="privacy" 
                 id="privacy" 
-                class="modal-input-check">
+                class="modal-input-check visually-hidden">
                 <label 
                 for="privacy"
-                class="modal-check-text">Погоджуюся з розсилкою та приймаю <span class=""> Умови договору</span></label>
-            </div class="modal-field"> 
+                class="modal-check-text">
+                <span>
+                    <svg class="modal-check-icon" width="16" height="15">
+                        <use href="./image/modal-icons.svg#icon-check">
+                        </use>
+                    </svg>
+                </span>
+                Погоджуюся з розсилкою та приймаю  Умови договору</label>
+            </div> 
                 <button type="submit" class="button-modal-submit">Відправити</button>
             </form>
         </div>
