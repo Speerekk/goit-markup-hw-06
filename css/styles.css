@@ -991,10 +991,19 @@ color: #757575;
     margin-right: 8px;
 }
 
+.check-margin {
+    margin-left: 12px;
+}
+
+.modal-check-link {
+    color: #2196F3;
+    margin-left: 2px;
+    text-decoration: underline;
+}
+
 .button-modal-submit {
     display: inline-block;
     background-color: #2196F3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     padding: 10px 52px;
     text-decoration: none;
