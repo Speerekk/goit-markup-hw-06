@@ -932,16 +932,15 @@ ul {
     resize: none;
 
     transition:border 250ms linear;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 0.01em;
 
-    color: #212121;
+    color: rgba(117, 117, 117, 0.5);
 }
 
 .modal-comment-text:hover,
